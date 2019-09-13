@@ -559,7 +559,7 @@ header nav ul {
 }
 
 .header-divider {
-    display: none;
+  display: none;
 }
 
 /* Hero Area */
@@ -611,7 +611,7 @@ aside .content-wrapper .form {
   width: 90%;
 }
 
-.reviews article div {
+.reviews article figure, .reviews article div {
     width: 49%;        
 }
 
@@ -671,14 +671,18 @@ footer .copyright {
       font-size: 3em;
   }
 
-  .contact-section .content-wrapper h2 {
+.map figure {
+  padding-bottom: 45.5%;
+}
+
+.contact-section .content-wrapper h2 {
     width: 80%;
   }
 
 .contact-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
 }
 
 .contact-content h4 {
@@ -727,15 +731,6 @@ p {
     line-height: 1.333;
 }
 
-/* Header */
-/* header figure { */
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 /* Hero */
 .hero-area h1 {
   font-size: 3.75em; 
@@ -777,6 +772,10 @@ About Page
 .contact-section .content-wrapper h2 {
    width: 100%;
    font-size: 3em;
+}
+
+.map figure {
+  padding-bottom: 37.5%;
 }
 
 .contact-section .content-wrapper h2 {
